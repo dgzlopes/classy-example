@@ -7,7 +7,7 @@
       "generate": "npx classy-k6 index.ts; mkdir -p ./gentests; mv *.generated.ts ./gentests"
     },
     "devDependencies": {
-      "classy-k6": "^1.0.3",
+      "classy-k6": "^1.0.4",
       "@types/k6": "^0.47.0",
       "typescript": "^5.2.2"
     }

@@ -27,7 +27,7 @@ export function logSetupData(data: { id: number }) {
 
 export const options = {
   ...{
-    cloud: { project: "my-project" },
+    cloud: { projectID: "my-project" },
     thresholds: { http_req_duration: ["p(95)<200"] }
   },
   scenarios: {

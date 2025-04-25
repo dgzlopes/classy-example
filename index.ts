@@ -6,7 +6,7 @@ const BASE_URL = "https://test.k6.io";
 
 export class FirstExample implements k6Test {
   options: k6TestOptions = {
-    cloud: { project: "my-project" },
+    cloud: { projectID: "my-project" },
     thresholds: { http_req_duration: ["p(95)<200"] }
   };
 
